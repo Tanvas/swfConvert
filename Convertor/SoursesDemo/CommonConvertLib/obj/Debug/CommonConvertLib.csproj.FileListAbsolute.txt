@@ -1,0 +1,14 @@
+C:\Users\OLAN\Desktop\Работа2015\CommonConvertLib\bin\Debug\CommonConvertLib.dll
+C:\Users\OLAN\Desktop\Работа2015\CommonConvertLib\bin\Debug\CommonConvertLib.pdb
+C:\Users\OLAN\Desktop\Работа2015\CommonConvertLib\obj\Debug\CommonConvertLib.dll
+C:\Users\OLAN\Desktop\Работа2015\CommonConvertLib\obj\Debug\CommonConvertLib.pdb
+C:\Users\OLAN\Desktop\Работа2015\CommonConvertLib\obj\Debug\CommonConvertLib.csprojResolveAssemblyReference.cache
+G:\VisualStudio\WPF\Работа2015\CommonConvertLib\bin\Debug\CommonConvertLib.dll
+G:\VisualStudio\WPF\Работа2015\CommonConvertLib\bin\Debug\CommonConvertLib.pdb
+G:\VisualStudio\WPF\Работа2015\CommonConvertLib\obj\Debug\CommonConvertLib.dll
+G:\VisualStudio\WPF\Работа2015\CommonConvertLib\obj\Debug\CommonConvertLib.pdb
+G:\VisualStudio\WPF\WebConvertor\Sourses\CommonConvertLib\bin\Debug\CommonConvertLib.dll
+G:\VisualStudio\WPF\WebConvertor\Sourses\CommonConvertLib\bin\Debug\CommonConvertLib.pdb
+G:\VisualStudio\WPF\WebConvertor\Sourses\CommonConvertLib\obj\Debug\CommonConvertLib.dll
+G:\VisualStudio\WPF\WebConvertor\Sourses\CommonConvertLib\obj\Debug\CommonConvertLib.pdb
+G:\VisualStudio\WPF\WebConvertor\Sourses\CommonConvertLib\obj\Debug\CommonConvertLib.csprojResolveAssemblyReference.cache

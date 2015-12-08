@@ -1,0 +1,300 @@
+﻿@charset "utf-8";
+/* CSS Document */
+ html
+{
+	height: 100%;
+    width:100%;
+  	overflow: hidden;
+}
+  body 
+{
+  	height: 99%;
+      width:99%;
+  	margin: 0;
+  	padding: 0;
+  	background-color: #FFF;
+ }
+ h3 
+{
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 14pt;
+	margin:10px;
+}
+ img
+ {
+     margin:0;
+     padding:0;
+ }
+ /*#test
+ {
+     position:absolute;
+    
+     left:10px;
+     
+ }*/
+#txtQ
+{
+	
+	font-size: 14pt;
+	position:relative;
+    left:20px;
+    z-index:1000;
+   
+}
+
+#testForm
+{
+	/*margin:10px 10px 10px 5px;*/
+	position:relative;
+  left:15px;
+	width:100%;
+	font-size:16px;
+    height:90%;
+   
+   
+}
+#testForm input,
+#testForm label,
+#testForm img
+{
+    position:fixed;
+}
+
+#testForm  input[type=checkbox] {
+  width: 12px;
+  height: 12px;  
+  left: 0; 
+  top: 50%;
+ 
+  cursor: pointer;
+  z-index: 10;
+  opacity: 0;
+ margin:5px 0 2px 15px;
+
+}
+.testBtn,.btnFalse {  
+    
+    
+    width:40px;
+    height:30px;
+    margin-top:10px;    
+
+}
+.testBtn
+{
+    background-color:#d4eda5;
+    border:1px #294ca7 solid; 
+    border-radius:2px;    
+}
+.testBtn:hover {  
+    
+     background-color:#4ad600;
+
+}
+.btnFalse
+{
+    border:1px #ff0000 solid; 
+    border-radius:2px;
+    background-color:#ff9393;
+}
+ .btnFalse:hover
+{
+    border:1px #ff0000 solid; 
+    border-radius:2px;
+    background-color:#ff9393;
+}
+.btnLabel
+{
+     margin-top:15px;  
+    margin-left:50px;
+}
+
+.checkLabel,#testForm .trueCheck,#testForm .wrongCheck
+ {
+ display:inline-block;
+  z-index: 1000;
+  cursor: pointer;
+    line-height:50px;
+ display:inline-block;
+  width: 30px;
+  height: 24px;
+ padding-left:28px;
+ margin-left:23px;  
+ margin-top:12px;
+   
+    opacity:1; 
+  content: '';
+}  
+.checkLabel
+{
+    background: rgba(0, 0, 0, 0) url("Images/checkbox.png")  no-repeat ;
+    background-position-y:12px;
+}
+#testForm input:checked + .checkLabel 
+{
+ 
+     background: rgba(0, 0, 0, 0) url("Images/checkbox_vibrano.png")  no-repeat;
+     background-position-y:12px;
+}
+
+
+
+#testForm .trueCheck   {
+ 
+ background: rgba(0, 0, 0, 0) url("Images/Pravilno.png")  no-repeat;
+ background-position-y:12px;
+}
+
+.ie8_all #testForm input[type=checkbox],
+.ie8_all .wrongCheck:before
+{
+    margin-top:30px;
+}
+.ie8_all #testForm .trueCheck
+{
+    margin-top:25px;
+	 line-height: 24px;
+  z-index: 1;
+  cursor: pointer;
+ 	color:#4ad600;
+ 	font-size:large;
+	display:inline-block;
+}
+
+#testForm input:checked + .trueCheck
+{
+     background: rgba(0, 0, 0, 0) url("Images/Pravilno.png")  no-repeat;
+ background-position-y:12px;
+}
+
+
+
+#testForm .wrongCheck   { 
+ background: rgba(0, 0, 0, 0) url("Images/checkbox_bad.png")  no-repeat;
+        background-position-y:12px;
+}
+
+.ie8_all #testForm .wrongCheck   {
+     margin-top:25px;
+ line-height: 24px;
+  z-index: 1;
+  cursor: pointer;
+ color:#f9aeae;
+ text-decoration:line-through;
+
+
+ 
+display:inline-block;       
+}
+
+
+
+#back {
+    height: 49px;
+    width: 52px;
+    border-style: none;
+    background-color: transparent;
+    z-index: 1000;
+    margin-left:20px;
+
+}
+#back{
+    background:url('Images/back.png') no-repeat;
+}
+#back:hover
+{
+   background:url('Images/back_hover.png') no-repeat;
+}
+#back a
+{
+    position:absolute;
+    height: 49px;
+    width: 52px;
+
+}
+#resBtn  
+{
+    position:fixed;
+   top:90%;
+   bottom:0;
+    right:50%;
+  border:1px #294ca7 solid;
+  height:32px; 
+  width:100px;
+  font-weight:bold;
+  border-radius:2px;
+  color:#223e64;
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#beeda5), to(#73d63e));
+ background: -webkit-linear-gradient(#beeda5, #73d63e);
+	background: -moz-linear-gradient(#beeda5, #73d63e);
+	background: -ms-linear-gradient(#beeda5, #73d63e);
+	background: -o-linear-gradient(#beeda5, #73d63e);
+	background: linear-gradient(#beeda5, #73d63e);
+	-pie-background: linear-gradient(#beeda5, #73d63e);
+	behavior: url('pie/PIE.php'); 
+    z-index:10;
+
+
+    
+}
+
+#testForm  input[type=submit]:hover
+{
+  border:1px #294ca7 solid;
+  height:32px;
+  width:100px;
+  font-weight:bold;
+  border-radius:2px;
+  color:#223e64;
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#73d63e), to(#beeda5));
+ background: -webkit-linear-gradient(#73d63e, #beeda5);
+	background: -moz-linear-gradient(#73d63e, #beeda5);
+	background: -ms-linear-gradient(#73d63e, #beeda5);
+	background: -o-linear-gradient(#73d63e, #beeda5);
+	background: linear-gradient(#73d63e, #beeda5);
+	-pie-background: linear-gradient(#73d63e, #beeda5);
+	behavior: url('pie/PIE.php'); 
+}
+
+
+
+#correctMes,
+#wrongMes
+{
+    position:fixed;
+    bottom:0;
+   align-self:center;
+   margin: 0 25% 0 25%;
+   width:50%;
+	height:100px;
+	text-align:center;
+	border:2px #294ca7 solid;
+	border-radius:2px;
+	color:#223e64;	
+	font-weight:bold;
+	font-size:18px;
+    z-index:10;
+}
+#correctMes
+{
+	background-color:#cfd4e2;
+}
+#wrongMes
+{
+	background-color:#f9aeae;
+}
+#resDiv
+{
+   
+    right:35%;
+	width:30%;
+    position:absolute;
+    top:40px;
+    border:2px #294ca7 solid;
+	border-radius:2px;
+    color:#223e64;	
+    font-size:18px;
+    display:block;
+    text-align:center;
+
+}

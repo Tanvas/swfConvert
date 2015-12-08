@@ -1,0 +1,76 @@
+﻿@charset "utf-8";
+/* CSS Document */
+ html
+{
+	height: 100%;
+  	overflow: hidden;
+}
+  body 
+{
+  	height: 99%;
+  	margin: 0;
+  	padding: 0;
+  	background-color: #FFF;
+     
+ }
+
+:focus {outline: none;}
+
+#navFrm
+{
+	
+	background:url('Images/Verxnii_gradient.png') white repeat-x;
+	height:31px;
+	padding-left:20px;
+	margin-bottom:10px;
+	
+
+}
+#btnForvd,.droplink
+{
+	height:49px;
+	width:48px;	
+	border-style:none;
+	background-color:transparent;
+	
+
+}
+
+
+#btnForvd
+{
+    border:none;
+	background:url('Images/right_aktiv.png') no-repeat ;
+     position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;	
+ right:10px;
+}
+
+#btnForvd:hover
+{
+
+	background:url('Images/right_hover.png') no-repeat;
+}
+
+/*фрейм кадра*/
+#FlashFrame
+{
+	/*position: absolute; */
+	border-style:none;
+	padding:2px;
+	
+	z-index:0; 
+	width: 98%; 
+	height: 93%; 
+	top: 31px; 
+	right: 0; 	
+}
+
+
+
+
+
+
+

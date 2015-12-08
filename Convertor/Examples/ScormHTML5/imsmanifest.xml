@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="captivate_test_multires_seq_4" version="1" 
+                xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" 
+                xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" 
+                xmlns:imsss="http://www.imsglobal.org/xsd/imsss">
+        
+ <organizations default="mainCourse">
+    <organization identifier="mainCourse" >
+    <title>Деповской и капитальный ремонт автосцепного устройства грузовых вагонов</title>  
+<item  identifier="2131e63a-0000-0000-0000-000000000000">
+            <title> Назначение, конструкция и принцип действия автосцепного устройства</title>
+            
+      
+    <item  identifier="07f75249-0000-0000-0000-000000000000" identifierref="theme4">
+              <title>Ударно-центрирующий прибор</title>
+            </item>  
+  
+     <item  identifier="2031de18-0000-0000-0000-000000000000" identifierref="test1">
+                <title>Контроль </title>
+              </item>  
+  
+    
+        </item>   
+  
+<item  identifier="3b634c7f-0000-0000-0000-000000000000">
+            <title> Технология ремонта автосцепного устройства при деповском и капитальном ремонте вагонов</title>
+            
+      
+<item  identifier="648fcab2-0000-0000-0000-000000000000">
+            <title> Ремонт деталей, передающих нагрузку от автосцепки на раму вагона</title>
+            
+      
+    <item  identifier="6a0096b4-0000-0000-0000-000000000000" identifierref="theme54">
+              <title>Ремонт упорной плиты</title>
+            </item>  
+  
+    
+        </item>   
+  
+    
+        </item>   
+  
+     </organization>
+        </organizations> 
+        <resources>   
+         
+    <resource identifier="theme4" type="webcontent" adlcp:scormType="sco" href="assets/theme4.html">
+    
+      <file href="assets/theme4.html"/>
+    
+      <file href="assets/content/theme4/2_1_5_1.jpg"/>
+    
+      <file href="assets/content/theme4/2_1_5_1.mp4"/>
+    
+      <file href="assets/content/theme4/2_1_5_1.webm"/>
+    
+      <file href="assets/content/theme4/2_1_5_2.jpg"/>
+    
+      <file href="assets/content/theme4/2_1_5_2.mp4"/>
+    
+      <file href="assets/content/theme4/2_1_5_2.webm"/>
+    
+      <file href="assets/content/theme4/2_1_5_3.jpg"/>
+    
+      <file href="assets/content/theme4/2_1_5_3.mp4"/>
+    
+      <file href="assets/content/theme4/2_1_5_3.webm"/>
+    
+      <file href="assets/content/theme4/2_1_5_4.jpg"/>
+    
+      <file href="assets/content/theme4/2_1_5_5.jpg"/>
+    
+      <file href="assets/content/theme4/2_1_5_5.mp4"/>
+    
+      <file href="assets/content/theme4/2_1_5_5.webm"/>
+    
+      <file href="assets/content/theme4/2_1_5_6.jpg"/>
+    
+      <file href="assets/content/theme4/2_1_5_6.mp4"/>
+    
+      <file href="assets/content/theme4/2_1_5_6.webm"/>
+    
+      <file href="assets/content/theme4/2_1_5_7.jpg"/>
+    
+      <file href="assets/content/theme4/2_1_5_7.mp4"/>
+    
+      <file href="assets/content/theme4/2_1_5_7.webm"/>
+    
+      <file href="assets/content/theme4/2_1_5_8.jpg"/>
+    
+      <file href="assets/content/theme4/2_1_5_8.mp4"/>
+    
+      <file href="assets/content/theme4/2_1_5_8.webm"/>
+    
+      <file href="assets/content/theme4/2_1_5_9.jpg"/>
+    
+      <file href="assets/content/theme4/2_1_5_9.mp4"/>
+    
+      <file href="assets/content/theme4/2_1_5_9.webm"/>
+    
+    <dependency identifierref="common_files"/>
+    </resource>
+         
+    <resource identifier="theme54" type="webcontent" adlcp:scormType="sco" href="assets/theme54.html">
+    
+      <file href="assets/theme54.html"/>
+    
+      <file href="assets/content/theme54/2_3_10_1.jpg"/>
+    
+      <file href="assets/content/theme54/2_3_10_1.mp4"/>
+    
+      <file href="assets/content/theme54/2_3_10_1.webm"/>
+    
+      <file href="assets/content/theme54/2_3_10_2.jpg"/>
+    
+      <file href="assets/content/theme54/2_3_10_2.mp4"/>
+    
+      <file href="assets/content/theme54/2_3_10_2.webm"/>
+    
+      <file href="assets/content/theme54/2_3_10_3.jpg"/>
+    
+      <file href="assets/content/theme54/2_3_10_3.mp4"/>
+    
+      <file href="assets/content/theme54/2_3_10_3.webm"/>
+    
+      <file href="assets/content/theme54/2_3_10_4.jpg"/>
+    
+      <file href="assets/content/theme54/2_3_10_4.mp4"/>
+    
+      <file href="assets/content/theme54/2_3_10_4.webm"/>
+    
+      <file href="assets/content/theme54/2_3_10_5.jpg"/>
+    
+      <file href="assets/content/theme54/2_3_10_5.mp4"/>
+    
+      <file href="assets/content/theme54/2_3_10_5.webm"/>
+    
+      <file href="assets/content/theme54/2_3_10_6.jpg"/>
+    
+      <file href="assets/content/theme54/2_3_10_6.mp4"/>
+    
+      <file href="assets/content/theme54/2_3_10_6.webm"/>
+    
+      <file href="assets/content/theme54/step1.html"/>
+    
+      <file href="assets/content/theme54/step2.html"/>
+    
+      <file href="assets/content/theme54/step3.html"/>
+    
+      <file href="assets/content/theme54/step4.html"/>
+    
+      <file href="assets/content/theme54/step5.html"/>
+    
+      <file href="assets/content/theme54/step6.html"/>
+    
+      <file href="assets/content/tool/lineyka.png"/>
+    
+      <file href="assets/content/tool/sht-zirk-1-125-0,1 .png"/>
+    
+      <file href="assets/content/tool/lampa.png"/>
+    
+      <file href="assets/content/tool/Lupa.png"/>
+    
+      <file href="assets/content/tool/Melok.png"/>
+    
+      <file href="assets/content/tool/Shetka.png"/>
+    
+      <file href="assets/content/tool/Mashinka shliphovalnaya.png"/>
+    
+      <file href="assets/content/tool/Molotok slesarnij.png"/>
+    
+      <file href="assets/content/tool/rukavica.png"/>
+    
+      <file href="assets/content/tool/VDU-511.png"/>
+    
+      <file href="assets/content/tool/Shitok.png"/>
+    
+      <file href="assets/content/tool/ED-300_elektrododerg.png"/>
+    
+      <file href="assets/content/tool/Elektrode.png"/>
+    
+      <file href="assets/content/tool/Mashinka shliphovalnaya.png"/>
+    
+      <file href="assets/content/tool/ochky12.4.003-80.png"/>
+    
+      <file href="assets/content/tool/sht-zirk-1-125-0,1 .png"/>
+    
+      <file href="assets/content/tool/Kisti.png"/>
+    
+      <file href="assets/content/tool/PF_115.png"/>
+    
+      <file href="assets/content/tool/Mashinka shliphovalnaya.png"/>
+    
+      <file href="assets/content/tool/Molotok slesarnij.png"/>
+    
+      <file href="assets/content/tool/Kleimo.png"/>
+    
+    <dependency identifierref="common_files"/>
+    </resource>
+         
+    <resource identifier="test1" type="webcontent" adlcp:scormType="sco" href="assets/test1.html">
+    
+      <file href="assets/test1.html"/>
+    
+      <file href="assets/content/test1/1_1_20.jpg"/>
+    
+      <file href="assets/content/test1/1_1_21.jpg"/>
+    
+      <file href="assets/content/test1/1_1_22.jpg"/>
+    
+      <file href="assets/content/test1/1_1_7.png"/>
+    
+      <file href="assets/content/test1/2.jpg"/>
+    
+      <file href="assets/content/test1/plita_a.png"/>
+    
+      <file href="assets/content/test1/questions.js"/>
+    
+    <dependency identifierref="common_files"/>
+    </resource>
+    
+     
+    <resource identifier="common_files" type="webcontent" adlcp:scormType="asset">
+    
+          
+    <file href="assets/themeplate/css/bootstrap.css"/>       
+    <file href="assets/themeplate/css/style-responsive.css"/>       
+    <file href="assets/themeplate/css/style.css"/>       
+    <file href="assets/themeplate/css/video-default.css"/>       
+    <file href="assets/themeplate/font-awesome/css/font-awesome.css"/>       
+    <file href="assets/themeplate/font-awesome/fonts/fontawesome-webfont.eot"/>       
+    <file href="assets/themeplate/font-awesome/fonts/fontawesome-webfont.svg"/>       
+    <file href="assets/themeplate/font-awesome/fonts/fontawesome-webfont.ttf"/>       
+    <file href="assets/themeplate/font-awesome/fonts/fontawesome-webfont.woff"/>       
+    <file href="assets/themeplate/font-awesome/fonts/FontAwesome.otf"/>       
+    <file href="assets/themeplate/fonts/glyphicons-halflings-regular.eot"/>       
+    <file href="assets/themeplate/fonts/glyphicons-halflings-regular.svg"/>       
+    <file href="assets/themeplate/fonts/glyphicons-halflings-regular.ttf"/>       
+    <file href="assets/themeplate/fonts/glyphicons-halflings-regular.woff"/>       
+    <file href="assets/themeplate/fonts/vjs.eot"/>       
+    <file href="assets/themeplate/fonts/vjs.svg"/>       
+    <file href="assets/themeplate/fonts/vjs.ttf"/>       
+    <file href="assets/themeplate/fonts/vjs.woff"/>       
+    <file href="assets/themeplate/img/2.png"/>       
+    <file href="assets/themeplate/img/back.png"/>       
+    <file href="assets/themeplate/img/back_hover.png"/>       
+    <file href="assets/themeplate/img/Gradient_instrument.png"/>       
+    <file href="assets/themeplate/img/Instr_aktiv.png"/>       
+    <file href="assets/themeplate/img/Instr_hover.png"/>       
+    <file href="assets/themeplate/img/left_aktiv.png"/>       
+    <file href="assets/themeplate/img/left_hover.png"/>       
+    <file href="assets/themeplate/img/Play_aktiv.png"/>       
+    <file href="assets/themeplate/img/Play_hover.png"/>       
+    <file href="assets/themeplate/img/Play_pressed.png"/>       
+    <file href="assets/themeplate/img/razdel_polosa.png"/>       
+    <file href="assets/themeplate/img/right_aktiv.png"/>       
+    <file href="assets/themeplate/img/right_hover.png"/>       
+    <file href="assets/themeplate/img/section.png"/>       
+    <file href="assets/themeplate/img/spisok.png"/>       
+    <file href="assets/themeplate/img/spisok_active.png"/>       
+    <file href="assets/themeplate/img/spisok_hover.png"/>       
+    <file href="assets/themeplate/img/test.png"/>       
+    <file href="assets/themeplate/img/theme.png"/>       
+    <file href="assets/themeplate/img/Verxnii_gradient.png"/>       
+    <file href="assets/themeplate/js/ApiWrapper.js"/>       
+    <file href="assets/themeplate/js/bootstrap.min.js"/>       
+    <file href="assets/themeplate/js/common-scripts.js"/>       
+    <file href="assets/themeplate/js/jquery-1.8.3.min.js"/>       
+    <file href="assets/themeplate/js/jquery-ui-1.9.2.custom.min.js"/>       
+    <file href="assets/themeplate/js/jquery.backstretch.min.js"/>       
+    <file href="assets/themeplate/js/jquery.dcjqaccordion.2.7.js"/>       
+    <file href="assets/themeplate/js/jquery.js"/>       
+    <file href="assets/themeplate/js/jquery.nicescroll.js"/>       
+    <file href="assets/themeplate/js/jquery.scrollTo.min.js"/>       
+    <file href="assets/themeplate/js/jquery.sparkline.js"/>       
+    <file href="assets/themeplate/js/jquery.video-ui.js"/>       
+    <file href="assets/themeplate/js/ScormAdapter.js"/>       
+    <file href="assets/themeplate/js/fancybox/jquery.fancybox.css"/>       
+    <file href="assets/themeplate/js/fancybox/jquery.fancybox.js"/>       
+    <file href="assets/themeplate/js/player/swfobject.js"/>       
+    <file href="assets/themeplate/tests/js/ApiWrapper.js"/>       
+    <file href="assets/themeplate/tests/js/cripto.js"/>       
+    <file href="assets/themeplate/tests/js/SCOFunctions.js"/>       
+    <file href="assets/themeplate/tests/js/ScormAdapter.js"/>       
+    <file href="assets/themeplate/tests/js/SCOTestFunc.js"/>       
+    <file href="assets/themeplate/tests/templates/frameViewStyle.css"/>       
+    <file href="assets/themeplate/tests/templates/main.css"/>       
+    <file href="assets/themeplate/tests/templates/Images/back.png"/>       
+    <file href="assets/themeplate/tests/templates/Images/back_hover.png"/>       
+    <file href="assets/themeplate/tests/templates/Images/checkbox.png"/>       
+    <file href="assets/themeplate/tests/templates/Images/checkbox_bad.png"/>       
+    <file href="assets/themeplate/tests/templates/Images/checkbox_right.png"/>       
+    <file href="assets/themeplate/tests/templates/Images/checkbox_vibrano.png"/>       
+    <file href="assets/themeplate/tests/templates/Images/Knopka_vpered.png"/>       
+    <file href="assets/themeplate/tests/templates/Images/Ne_vibrano.png"/>       
+    <file href="assets/themeplate/tests/templates/Images/Pravilno.png"/>       
+    <file href="assets/themeplate/tests/templates/Images/right_aktiv.png"/>       
+    <file href="assets/themeplate/tests/templates/Images/right_hover.png"/>       
+    <file href="assets/themeplate/tests/templates/Images/Verxnii_gradient.png"/>       
+    <file href="assets/themeplate/tests/templates/Images/Vibrano.png"/>       
+    <file href="assets/themeplate/tests/templates/pie/PIE.htc"/>       
+    <file href="assets/themeplate/tests/templates/pie/PIE.js"/>       
+    <file href="assets/themeplate/tests/templates/pie/PIE.php"/>       
+    <file href="assets/themeplate/tests/templates/pie/PIE_uncompressed.htc"/>       
+    <file href="assets/themeplate/tests/templates/pie/PIE_uncompressed.js"/>       
+    <file href="assets/themeplate/video/video-js.css"/>       
+    <file href="assets/themeplate/video/video-js.swf"/>       
+    <file href="assets/themeplate/video/video.js"/>   
+    
+    </resource>
+        </resources>
+       </manifest>
+         
+      

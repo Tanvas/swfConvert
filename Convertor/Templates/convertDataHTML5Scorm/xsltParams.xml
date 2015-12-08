@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SerializeXSLTParams>
+  <StartFileName>index.html</StartFileName>
+  <RootFolderName>assets</RootFolderName>
+  <CourseDataFolderName>content</CourseDataFolderName>
+  <ToolsDataFolderName>tool</ToolsDataFolderName>
+  <TemplatePath>themeplate</TemplatePath>
+  <ThemeShemePath>theme.xsl</ThemeShemePath>
+  <TestShemePath>control.xsl</TestShemePath>
+  <ContentShemePath>content.xsl</ContentShemePath>
+  <ToolImg>
+    <WidthPxStr>400</WidthPxStr>
+    <HeightPxStr>400</HeightPxStr>
+  </ToolImg>
+  <ConvertVideoToHTML5>1</ConvertVideoToHTML5>
+  <ManifestSheme>manifest.xsl</ManifestSheme>
+</SerializeXSLTParams>

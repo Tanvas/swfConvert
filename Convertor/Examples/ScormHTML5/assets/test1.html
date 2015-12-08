@@ -1,0 +1,37 @@
+<!DOCTYPE html
+  PUBLIC "html">
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+          <meta charset="utf-8" ></meta>        
+          <meta name="description" content=""/>
+          <meta name="author" content="RPTS"/>
+          <link href="themeplate/tests/templates/main.css" rel="stylesheet" type="text/css"></link>
+          <link href="themeplate/tests/templates/frameViewStyle.css" rel="stylesheet" type="text/css"></link>
+          <!--[if lte IE 8]> <html class="ie8_all" lang="en"> <![endif]-->
+        
+      <title>Контроль</title>
+   </head>
+   <body>
+        
+          <form id="navFrm">
+            <input type="button" id="btnForvd" onclick="GoNextPage();" />
+          </form>         
+         <div id="resDiv" style="display:none"></div>          
+          <form id="testForm" onsubmit="return  testManager.checkAnswer();">
+          
+          </form>
+          <center id="mess"></center>
+        <script type="text/javascript" src="themeplate/tests/js/cripto.js"></script>
+        <script type="text/javascript" src="themeplate/tests/js/ScormAdapter.js"></script>
+       <script type="text/javascript" src="themeplate/tests/js/ApiWrapper.js"></script>
+        <script type="text/javascript" src="themeplate/tests/js/SCOFunctions.js"></script>
+        <script type="text/javascript" src="themeplate/tests/js/SCOTestFunc.js"></script>
+        <script type="text/javascript" src="content/test1/questions.js"></script>
+        <script type="text/javascript">
+            window.onload = function () { loadPage(); };
+            window.onunload = function () { unloadPage(); };        
+        </script>
+      </body>
+</html>
